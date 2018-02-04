@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ocean {
+    background-image: url("ocean.jpg");
+    background-color: teal;
+    width: 900px;
+    height: 700px;
+}
+
+.player {
+    width: 70px;
+    height: 75px;
+    background-image: url("player.png");
+    background-size: contain;
+    position: absolute;
+}
+
+.enemy {
+    width: 70px;
+    height: 75px;
+    background-image: url("fighterspr1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.missile {
+    position: absolute;
+    background-color: lightgreen;
+    width: 2px;
+    height: 10px;
+}

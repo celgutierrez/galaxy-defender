@@ -4,7 +4,7 @@
 }
 
 #ocean {
-    background-image: url("ocean.jpg");
+    background-image: url("img/ocean.jpg");
     background-color: teal;
     width: 900px;
     height: 700px;
@@ -13,7 +13,7 @@
 .player {
     width: 70px;
     height: 75px;
-    background-image: url("player.png");
+    background-image: url("img/player.png");
     background-size: contain;
     position: absolute;
 }
@@ -21,7 +21,7 @@
 .enemy {
     width: 70px;
     height: 75px;
-    background-image: url("fighterspr1.png");
+    background-image: url("img/fighterspr1.png");
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
